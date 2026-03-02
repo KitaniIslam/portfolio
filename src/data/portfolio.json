@@ -12,7 +12,11 @@
   },
   "overview": {
     "experienceYears": "9+ Years Experience",
-    "domains": ["Fintech", "Fitness", "AI / RAG"]
+    "domains": [
+      "Fintech",
+      "Fitness",
+      "AI / RAG"
+    ]
   },
   "services": {
     "title": "Services I Provide",
@@ -36,7 +40,10 @@
     ]
   },
   "technologies": [
-    { "name": "React", "logo": "https://cdn.simpleicons.org/react/9ca3af" },
+    {
+      "name": "React",
+      "logo": "https://cdn.simpleicons.org/react/9ca3af"
+    },
     {
       "name": "React Native",
       "logo": "https://cdn.simpleicons.org/react/9ca3af"
@@ -44,6 +51,18 @@
     {
       "name": "Next.js",
       "logo": "https://cdn.simpleicons.org/nextdotjs/9ca3af"
+    },
+    {
+      "name": "Vue",
+      "logo": "https://cdn.simpleicons.org/vuedotjs/9ca3af"
+    },
+    {
+      "name": "Nuxt.js",
+      "logo": "https://cdn.simpleicons.org/nuxt/9ca3af"
+    },
+    {
+      "name": "Astro",
+      "logo": "https://cdn.simpleicons.org/astro/9ca3af"
     },
     {
       "name": "TypeScript",
@@ -54,6 +73,18 @@
       "logo": "https://cdn.simpleicons.org/javascript/9ca3af"
     },
     {
+      "name": "HTML",
+      "logo": "https://cdn.simpleicons.org/html5/9ca3af"
+    },
+    {
+      "name": "Expo",
+      "logo": "https://cdn.simpleicons.org/expo/9ca3af"
+    },
+    {
+      "name": "Redux",
+      "logo": "https://cdn.simpleicons.org/redux/9ca3af"
+    },
+    {
       "name": "Node.js",
       "logo": "https://cdn.simpleicons.org/nodedotjs/9ca3af"
     },
@@ -61,38 +92,65 @@
       "name": "Express.js",
       "logo": "https://cdn.simpleicons.org/express/9ca3af"
     },
-    { "name": "GraphQL", "logo": "https://cdn.simpleicons.org/graphql/9ca3af" },
+    {
+      "name": "GraphQL",
+      "logo": "https://cdn.simpleicons.org/graphql/9ca3af"
+    },
     {
       "name": "REST APIs",
       "logo": "https://cdn.simpleicons.org/postman/9ca3af"
     },
-    { "name": "Zod", "logo": "https://cdn.simpleicons.org/zod/9ca3af" },
-    { "name": "Prisma", "logo": "https://cdn.simpleicons.org/prisma/9ca3af" },
+    {
+      "name": "Zod",
+      "logo": "https://cdn.simpleicons.org/zod/9ca3af"
+    },
+    {
+      "name": "Prisma",
+      "logo": "https://cdn.simpleicons.org/prisma/9ca3af"
+    },
+    {
+      "name": "PHP",
+      "logo": "https://cdn.simpleicons.org/php/9ca3af"
+    },
+    {
+      "name": "Java",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+    },
+    {
+      "name": "CSS",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    },
+    {
+      "name": "Tailwindcss",
+      "logo": "https://cdn.simpleicons.org/tailwindcss/9ca3af"
+    },
+    {
+      "name": "SCSS",
+      "logo": "https://cdn.simpleicons.org/sass/9ca3af"
+    },
+    {
+      "name": "Styled Components",
+      "logo": "https://cdn.simpleicons.org/styledcomponents/9ca3af"
+    },
     {
       "name": "PostgreSQL",
       "logo": "https://cdn.simpleicons.org/postgresql/9ca3af"
     },
-    { "name": "MongoDB", "logo": "https://cdn.simpleicons.org/mongodb/9ca3af" },
-    { "name": "MySQL", "logo": "https://cdn.simpleicons.org/mysql/9ca3af" },
     {
-      "name": "AWS Lambda",
-      "logo": "https://cdn.simpleicons.org/amazonwebservices/9ca3af"
+      "name": "MongoDB",
+      "logo": "https://cdn.simpleicons.org/mongodb/9ca3af"
     },
     {
-      "name": "AWS EC2",
-      "logo": "https://cdn.simpleicons.org/amazonwebservices/9ca3af"
-    },
-    {
-      "name": "AWS RDS",
-      "logo": "https://cdn.simpleicons.org/amazonwebservices/9ca3af"
-    },
-    {
-      "name": "API Gateway",
-      "logo": "https://cdn.simpleicons.org/amazonwebservices/9ca3af"
+      "name": "MySQL",
+      "logo": "https://cdn.simpleicons.org/mysql/9ca3af"
     },
     {
       "name": "Supabase",
       "logo": "https://cdn.simpleicons.org/supabase/9ca3af"
+    },
+    {
+      "name": "AWS",
+      "logo": "/images/tech/aws.svg"
     },
     {
       "name": "Google Cloud",
@@ -100,18 +158,68 @@
     },
     {
       "name": "Azure",
-      "logo": "https://cdn.simpleicons.org/microsoftazure/9ca3af"
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
     },
-    { "name": "Git", "logo": "https://cdn.simpleicons.org/git/9ca3af" },
-    { "name": "GitHub", "logo": "https://cdn.simpleicons.org/github/9ca3af" },
     {
-      "name": "GitLab CI/CD",
+      "name": "Docker",
+      "logo": "https://cdn.simpleicons.org/docker/9ca3af"
+    },
+    {
+      "name": "Heroku",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
+    },
+    {
+      "name": "Linux",
+      "logo": "https://cdn.simpleicons.org/linux/9ca3af"
+    },
+    {
+      "name": "Git",
+      "logo": "https://cdn.simpleicons.org/git/9ca3af"
+    },
+    {
+      "name": "GitHub",
+      "logo": "https://cdn.simpleicons.org/github/9ca3af"
+    },
+    {
+      "name": "GitLab",
       "logo": "https://cdn.simpleicons.org/gitlab/9ca3af"
     },
-    { "name": "Stripe", "logo": "https://cdn.simpleicons.org/stripe/9ca3af" },
-    { "name": "ChatGPT", "logo": "https://cdn.simpleicons.org/openai/9ca3af" },
-    { "name": "Gemini", "logo": "https://cdn.simpleicons.org/google/9ca3af" },
-    { "name": "Python", "logo": "https://cdn.simpleicons.org/python/9ca3af" }
+    {
+      "name": "GitHub Actions",
+      "logo": "https://cdn.simpleicons.org/githubactions/9ca3af"
+    },
+    {
+      "name": "Jira",
+      "logo": "https://cdn.simpleicons.org/jira/9ca3af"
+    },
+    {
+      "name": "Bash",
+      "logo": "https://cdn.simpleicons.org/gnubash/9ca3af"
+    },
+    {
+      "name": "Stripe",
+      "logo": "https://cdn.simpleicons.org/stripe/9ca3af"
+    },
+    {
+      "name": "OpenCV",
+      "logo": "https://cdn.simpleicons.org/opencv/9ca3af"
+    },
+    {
+      "name": "IOT",
+      "logo": "https://cdn.simpleicons.org/arduino/9ca3af"
+    },
+    {
+      "name": "Bitmex",
+      "logo": "/images/tech/bitmex.svg"
+    },
+    {
+      "name": "binance",
+      "logo": "https://cdn.simpleicons.org/binance/9ca3af"
+    },
+    {
+      "name": "Python",
+      "logo": "https://cdn.simpleicons.org/python/9ca3af"
+    }
   ],
   "caseStudies": {
     "title": "Case Study",
@@ -132,24 +240,6 @@
         "name": "Juiceplus Mobile Flows",
         "domain": "Fitness",
         "impact": "Improved mobile usability and delivery quality in cross-functional product teams.",
-        "image": "/images/case-fitness.svg"
-      },
-      {
-        "name": "TATA Engineering Support",
-        "domain": "Enterprise",
-        "impact": "Delivered practical product engineering support with performance and implementation quality focus.",
-        "image": "/images/case-platform.svg"
-      },
-      {
-        "name": "CheckD Wallet Launch",
-        "domain": "Fintech / Wallet",
-        "impact": "Supported team delivery and public launch by aligning engineering workflow, quality, and execution.",
-        "image": "/images/case-fintech.svg"
-      },
-      {
-        "name": "RegTech AI Product Build",
-        "domain": "AI / Compliance",
-        "impact": "Led technical delivery for regulatory monitoring features with product-focused decision making.",
         "image": "/images/case-fitness.svg"
       }
     ]
@@ -209,6 +299,39 @@
       }
     ]
   },
+  "education": {
+    "title": "Education",
+    "description": "Academic background and qualifications",
+    "items": [
+      {
+        "degree": "Computer Science",
+        "institution": "University of SAAD Dahlab Blida (USDB)",
+        "period": "2015 - 2019",
+        "location": "Algeria",
+        "description": "Specialized in Software Engineering and Computer Systems."
+      }
+    ]
+  },
+  "awards": {
+    "title": "Awards & Recognitions",
+    "description": "Professional achievements and industry recognition",
+    "items": [
+      {
+        "title": "1st Place - NASA App Challenge 2016",
+        "organization": "NASA",
+        "year": "2016",
+        "description": "Won first place in the NASA App Challenge competition, developing an innovative solution for pandemic evacuation planning.",
+        "icon": "🏆"
+      },
+      {
+        "title": "Catapult UK Recognition",
+        "organization": "Catapult Network UK",
+        "year": "2020",
+        "description": "Recognized by Catapult Network UK for pioneering IoT initiative in intelligent transportation systems.",
+        "icon": "🚀"
+      }
+    ]
+  },
   "footer": {
     "text": "Kitani Islam - Senior Full Stack (React/React Native) Engineer",
     "email": "slmkitani@gmail.com",
@@ -228,11 +351,233 @@
         "icon": "ig",
         "href": "https://www.instagram.com/kitani_islam/"
       },
-      { "label": "Email", "icon": "@", "href": "mailto:slmkitani@gmail.com" }
+      {
+        "label": "Email",
+        "icon": "@",
+        "href": "mailto:slmkitani@gmail.com"
+      }
     ],
     "links": [
-      { "label": "Email", "href": "mailto:slmkitani@gmail.com" },
-      { "label": "Download CV", "href": "/cv/Kitani-Islam-CV.pdf" }
+      {
+        "label": "Email",
+        "href": "mailto:slmkitani@gmail.com"
+      },
+      {
+        "label": "Download CV",
+        "href": "/cv/Kitani-Islam-CV.pdf"
+      }
     ]
-  }
+  },
+  "technologyGroups": [
+    {
+      "title": "Frontend & Mobile",
+      "items": [
+        {
+          "name": "React",
+          "logo": "https://cdn.simpleicons.org/react/9ca3af"
+        },
+        {
+          "name": "React Native",
+          "logo": "https://cdn.simpleicons.org/react/9ca3af"
+        },
+        {
+          "name": "Next.js",
+          "logo": "https://cdn.simpleicons.org/nextdotjs/9ca3af"
+        },
+        {
+          "name": "Vue",
+          "logo": "https://cdn.simpleicons.org/vuedotjs/9ca3af"
+        },
+        {
+          "name": "Nuxt.js",
+          "logo": "https://cdn.simpleicons.org/nuxt/9ca3af"
+        },
+        {
+          "name": "Astro",
+          "logo": "https://cdn.simpleicons.org/astro/9ca3af"
+        },
+        {
+          "name": "TypeScript",
+          "logo": "https://cdn.simpleicons.org/typescript/9ca3af"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "https://cdn.simpleicons.org/javascript/9ca3af"
+        },
+        {
+          "name": "HTML",
+          "logo": "https://cdn.simpleicons.org/html5/9ca3af"
+        },
+        {
+          "name": "Expo",
+          "logo": "https://cdn.simpleicons.org/expo/9ca3af"
+        },
+        {
+          "name": "Redux",
+          "logo": "https://cdn.simpleicons.org/redux/9ca3af"
+        }
+      ]
+    },
+    {
+      "title": "Backend & APIs",
+      "items": [
+        {
+          "name": "Node.js",
+          "logo": "https://cdn.simpleicons.org/nodedotjs/9ca3af"
+        },
+        {
+          "name": "Express.js",
+          "logo": "https://cdn.simpleicons.org/express/9ca3af"
+        },
+        {
+          "name": "GraphQL",
+          "logo": "https://cdn.simpleicons.org/graphql/9ca3af"
+        },
+        {
+          "name": "REST APIs",
+          "logo": "https://cdn.simpleicons.org/postman/9ca3af"
+        },
+        {
+          "name": "Zod",
+          "logo": "https://cdn.simpleicons.org/zod/9ca3af"
+        },
+        {
+          "name": "Prisma",
+          "logo": "https://cdn.simpleicons.org/prisma/9ca3af"
+        },
+        {
+          "name": "PHP",
+          "logo": "https://cdn.simpleicons.org/php/9ca3af"
+        },
+        {
+          "name": "Java",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+        }
+      ]
+    },
+    {
+      "title": "Styling & UI",
+      "items": [
+        {
+          "name": "CSS",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+        },
+        {
+          "name": "Tailwindcss",
+          "logo": "https://cdn.simpleicons.org/tailwindcss/9ca3af"
+        },
+        {
+          "name": "SCSS",
+          "logo": "https://cdn.simpleicons.org/sass/9ca3af"
+        },
+        {
+          "name": "Styled Components",
+          "logo": "https://cdn.simpleicons.org/styledcomponents/9ca3af"
+        }
+      ]
+    },
+    {
+      "title": "Databases & Storage",
+      "items": [
+        {
+          "name": "PostgreSQL",
+          "logo": "https://cdn.simpleicons.org/postgresql/9ca3af"
+        },
+        {
+          "name": "MongoDB",
+          "logo": "https://cdn.simpleicons.org/mongodb/9ca3af"
+        },
+        {
+          "name": "MySQL",
+          "logo": "https://cdn.simpleicons.org/mysql/9ca3af"
+        },
+        {
+          "name": "Supabase",
+          "logo": "https://cdn.simpleicons.org/supabase/9ca3af"
+        }
+      ]
+    },
+    {
+      "title": "Cloud, DevOps & Collaboration",
+      "items": [
+        {
+          "name": "AWS",
+          "logo": "/images/tech/aws.svg"
+        },
+        {
+          "name": "Google Cloud",
+          "logo": "https://cdn.simpleicons.org/googlecloud/9ca3af"
+        },
+        {
+          "name": "Azure",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+        },
+        {
+          "name": "Docker",
+          "logo": "https://cdn.simpleicons.org/docker/9ca3af"
+        },
+        {
+          "name": "Heroku",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
+        },
+        {
+          "name": "Linux",
+          "logo": "https://cdn.simpleicons.org/linux/9ca3af"
+        },
+        {
+          "name": "Git",
+          "logo": "https://cdn.simpleicons.org/git/9ca3af"
+        },
+        {
+          "name": "GitHub",
+          "logo": "https://cdn.simpleicons.org/github/9ca3af"
+        },
+        {
+          "name": "GitLab",
+          "logo": "https://cdn.simpleicons.org/gitlab/9ca3af"
+        },
+        {
+          "name": "GitHub Actions",
+          "logo": "https://cdn.simpleicons.org/githubactions/9ca3af"
+        },
+        {
+          "name": "Jira",
+          "logo": "https://cdn.simpleicons.org/jira/9ca3af"
+        },
+        {
+          "name": "Bash",
+          "logo": "https://cdn.simpleicons.org/gnubash/9ca3af"
+        }
+      ]
+    },
+    {
+      "title": "Specialized",
+      "items": [
+        {
+          "name": "Stripe",
+          "logo": "https://cdn.simpleicons.org/stripe/9ca3af"
+        },
+        {
+          "name": "OpenCV",
+          "logo": "https://cdn.simpleicons.org/opencv/9ca3af"
+        },
+        {
+          "name": "IOT",
+          "logo": "https://cdn.simpleicons.org/arduino/9ca3af"
+        },
+        {
+          "name": "Bitmex",
+          "logo": "/images/tech/bitmex.svg"
+        },
+        {
+          "name": "binance",
+          "logo": "https://cdn.simpleicons.org/binance/9ca3af"
+        },
+        {
+          "name": "Python",
+          "logo": "https://cdn.simpleicons.org/python/9ca3af"
+        }
+      ]
+    }
+  ]
 }

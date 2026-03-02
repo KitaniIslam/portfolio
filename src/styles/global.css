@@ -1,10 +1,10 @@
 :root {
   --bg: #f3f3ed;
   --surface: #ffffff;
-  --text: #121212;
+  --text: #0b162b;
   --muted: #5e615d;
   --line: #d4d6ce;
-  --dark: #181818;
+  --dark: #0b162b;
   --orange: #ec7a1a;
   --radius-xl: 34px;
   --radius-lg: 24px;
@@ -85,7 +85,7 @@ a {
   border-radius: 12px;
   border: 1px solid #d0d2ca;
   background: #ffffff;
-  color: #1b1b1b;
+  color: #0b162b;
   font-weight: 700;
   letter-spacing: 0.04em;
 }
@@ -108,7 +108,7 @@ a {
 .menu-toggle span {
   width: 16px;
   height: 2px;
-  background: #222;
+  background: #0b162b;
   border-radius: 999px;
 }
 
@@ -308,6 +308,79 @@ h3 {
   gap: 26px;
 }
 
+.awards-section {
+  margin-bottom: 120px;
+}
+
+.education-section {
+  margin-bottom: 120px;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.education-card {
+  display: flex;
+  gap: 20px;
+  padding: 24px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: var(--orange);
+}
+
+.education-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.education-content h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+.education-institution {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--orange);
+  margin: 0;
+}
+
+.education-period {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin: 0;
+}
+
+.education-location {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin: 0;
+}
+
+.education-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text);
+  margin: 0;
+}
+
 .domain-card {
   border: 1px solid var(--line);
   border-radius: 18px;
@@ -396,7 +469,7 @@ h3 {
   border-radius: var(--radius-lg);
   background: var(--surface);
   min-height: 390px;
-  padding: 18px 18px 30px;
+  padding: 12px 12px 20px;
   display: grid;
   grid-template-rows: auto auto 1fr;
   gap: 12px;
@@ -451,11 +524,11 @@ h3 {
   width: fit-content;
   border: 1px solid #c8ccc4;
   background: #ffffff;
-  color: #1b1b1b;
+  color: #0b162b;
   border-radius: 999px;
   padding: 8px 14px;
   font-size: 0.85rem;
-  font-weight: 700;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -497,6 +570,34 @@ h3 {
   flex-wrap: wrap;
   gap: 10px;
   align-content: flex-start;
+}
+
+.tech-groups {
+  display: grid;
+  gap: 32px;
+}
+
+.tech-group {
+  display: contents;
+}
+
+.tech-group h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tech-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tech-badge-wall.is-hidden {
+  display: none;
 }
 
 .logo-item.static {
@@ -697,7 +798,7 @@ h3 {
   border: 1px solid #c8cbc3;
   border-radius: 999px;
   background: #ffffff;
-  color: #1b1b1b;
+  color: #0b162b;
   font-size: 0.9rem;
   font-weight: 650;
   padding: 8px 14px;
@@ -706,6 +807,80 @@ h3 {
 
 .timeline-toggle:hover {
   background: #f4f5f1;
+}
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.award-card {
+  display: flex;
+  gap: 20px;
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  transition: all 0.3s ease;
+}
+
+/* .award-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: var(--orange);
+} */
+
+.award-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-md);
+  background: #f8fafc;
+  border: 2px solid #e3e8ef;
+  flex-shrink: 0;
+}
+
+.award-icon span {
+  font-size: 1.8rem;
+}
+
+.award-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.award-content h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+.award-organization {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--orange);
+  margin: 0;
+}
+
+.award-year {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin: 0;
+}
+
+.award-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text);
+  margin: 0;
 }
 
 .footer {
@@ -1010,5 +1185,31 @@ h3 {
   .footer {
     margin-top: 18px;
     padding-top: 28px;
+  }
+
+  .awards-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .award-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .award-icon {
+    margin: 0 auto 16px;
+  }
+
+  .education-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
   }
 }

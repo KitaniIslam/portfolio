@@ -1,25 +1,12 @@
 <svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="devShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.09"/>
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#0B162B" flood-opacity="0.09"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="760" rx="24" fill="#ffffff"/>
+  <rect width="1200" height="760" rx="24" fill="transparent"/>
 
-  <g opacity="0.22" stroke="#dbe2ec" stroke-width="2">
-    <path d="M140 150H1060"/>
-    <path d="M140 610H1060"/>
-    <path d="M200 96V664"/>
-    <path d="M320 96V664"/>
-    <path d="M440 96V664"/>
-    <path d="M560 96V664"/>
-    <path d="M680 96V664"/>
-    <path d="M800 96V664"/>
-    <path d="M920 96V664"/>
-  </g>
-
-  <ellipse cx="620" cy="626" rx="312" ry="26" fill="#eaf0f6"/>
 
   <g filter="url(#devShadow)">
     <rect x="170" y="206" width="612" height="352" rx="20" fill="#f8fafc" stroke="#dce4ee" stroke-width="3"/>

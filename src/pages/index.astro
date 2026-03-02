@@ -11,8 +11,14 @@ const navItems = [
   { label: 'Contact', href: '#footer' }
 ];
 
-const firstTechRow = portfolio.technologies.slice(0, 8);
-const secondTechRow = portfolio.technologies.slice(8);
+const techGroups =
+  Array.isArray(portfolio.technologyGroups) && portfolio.technologyGroups.length > 0
+    ? portfolio.technologyGroups
+    : [{ title: 'Technologies', items: portfolio.technologies }];
+const allTech = techGroups.flatMap((group) => group.items ?? []);
+const midpoint = Math.ceil(allTech.length / 2);
+const firstTechRow = allTech.slice(0, midpoint);
+const secondTechRow = allTech.slice(midpoint);
 const hasMoreTimeline = portfolio.experience.items.length > 3;
 const toBasePath = (value: string) => {
   if (typeof value !== 'string' || !value.startsWith('/')) return value;
@@ -76,7 +82,7 @@ const toBasePath = (value: string) => {
         <div class="service-grid">
           {portfolio.services.items.map((service) => (
             <article class="service-card">
-              <img src={toBasePath(service.illustration)} alt={`${service.title} illustration`} loading="lazy" />
+              <img src={toBasePath(service.illustration)} alt={`${service.title} illustration`} loading="lazy" style={{background: '#0B162B'}} />
               <h3>{service.title}</h3>
               <p>{service.text}</p>
             </article>
@@ -97,7 +103,7 @@ const toBasePath = (value: string) => {
           <div class="logo-track left">
             {[...firstTechRow, ...firstTechRow].map((tech) => (
               <article class="logo-item">
-                <img src={tech.logo} alt={tech.name} loading="lazy" />
+                <img src={toBasePath(tech.logo)} alt={tech.name} loading="lazy" />
                 <span>{tech.name}</span>
               </article>
             ))}
@@ -105,7 +111,7 @@ const toBasePath = (value: string) => {
           <div class="logo-track right">
             {[...secondTechRow, ...secondTechRow].map((tech) => (
               <article class="logo-item">
-                <img src={tech.logo} alt={tech.name} loading="lazy" />
+                <img src={toBasePath(tech.logo)} alt={tech.name} loading="lazy" />
                 <span>{tech.name}</span>
               </article>
             ))}
@@ -113,12 +119,21 @@ const toBasePath = (value: string) => {
         </div>
 
         <div class="tech-badge-wall is-hidden" data-tech-static>
-          {portfolio.technologies.map((tech) => (
-            <article class="logo-item static">
-              <img src={tech.logo} alt={tech.name} loading="lazy" />
-              <span>{tech.name}</span>
-            </article>
-          ))}
+          <div class="tech-groups">
+            {techGroups.map((group) => (
+              <div class="tech-group">
+                <h4>{group.title}</h4>
+                <div class="tech-row">
+                  {(group.items ?? []).map((tech) => (
+                    <article class="logo-item">
+                      <img src={toBasePath(tech.logo)} alt={tech.name} loading="lazy" />
+                      <span>{tech.name}</span>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -176,6 +191,45 @@ const toBasePath = (value: string) => {
             Show full timeline
           </button>
         )}
+      </section>
+
+      <section id="education" class="section-spacing section-block education-section">
+        <div class="section-head">
+          <h2>{portfolio.education.title}</h2>
+          <p>{portfolio.education.description}</p>
+        </div>
+
+        <div class="education-grid">
+          {portfolio.education.items.map((edu) => (
+            
+              <div class="education-content">
+                <h3>{edu.degree}</h3>
+                <p class="education-institution">{edu.institution}</p>
+                <p class="education-period">{edu.period}</p>
+                <p class="education-location">{edu.location}</p>
+                <p class="education-description">{edu.description}</p>
+              </div>
+            
+          ))}
+        </div>
+      </section>
+
+      <section id="awards" class="section-spacing section-block awards-section">
+        <div class="section-head">
+          <h2>{portfolio.awards.title}</h2>
+          <p>{portfolio.awards.description}</p>
+        </div>
+
+        <div class="awards-grid">
+          {portfolio.awards.items.map((award) => (
+              <div class="award-content">
+                <h3>{award.title}</h3>
+                <p class="award-organization">{award.organization}</p>
+                <p class="award-year">{award.year}</p>
+                <p class="award-description">{award.description}</p>
+              </div>
+          ))}
+        </div>
       </section>
     </main>
 
